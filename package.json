@@ -1,8 +1,10 @@
 {
   "name": "markdown-previewer",
+  "homepage": "http://sharpeleven91.github.io/Markdown-Previewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "html-react-parser": "^0.4.1",
     "marked": "^0.3.7",
     "react": "^16.2.0",
@@ -10,6 +12,8 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
