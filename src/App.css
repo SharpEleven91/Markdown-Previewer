@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#frame {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea {
+  resize: none;
+}
+
+#white-space {
+  width: 100px;
+  height: 200px;
+}
+#text-output {
+  
+}
+
+#text-input {
+  border: 1px solid #c3c3c3;
+  height: 500px;
+  width: 500px;
+  border-radius: 3px;
+}
+
+#text-output {
+  height: 500px;
+  width: 500px;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 25px;
+}
